@@ -1,0 +1,51 @@
+# Kiro / cc-sdd framework files
+.github/prompts/kiro-*.md
+.claude/
+.kiro/settings/
+AGENTS.md
+CLAUDE.md
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Testing
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# build artifacts
+.build/
+
+# Utility scripts
+deploy.sh
